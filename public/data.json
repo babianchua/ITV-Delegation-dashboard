@@ -1,0 +1,61 @@
+{
+  "updatedAt": "2026-09-28T15:12:00+08:00",
+  "trips": [
+    {
+      "from": "2026-10-09",
+      "till": "2026-10-10",
+      "dateLabel": "9\u201310 Oct",
+      "destination": "Brunei",
+      "person": "Rong Yao",
+      "type": "Delegation"
+    },
+    {
+      "from": "2026-10-14",
+      "till": "2026-10-16",
+      "dateLabel": "14\u201316 Oct",
+      "destination": "Norway",
+      "person": "Wei Han",
+      "type": "Delegation"
+    },
+    {
+      "from": "2026-10-16",
+      "till": "2026-10-20",
+      "dateLabel": "16\u201320 Oct",
+      "destination": "Qatar and UAE",
+      "person": "Wei Loon",
+      "type": "Delegation"
+    },
+    {
+      "from": "2026-10-20",
+      "till": "2026-10-22",
+      "dateLabel": "20\u201322 Oct",
+      "destination": "Sweden",
+      "person": "Wei Han",
+      "type": "Delegation"
+    },
+    {
+      "from": "2026-11-13",
+      "till": "2026-11-15",
+      "dateLabel": "13\u201315 Nov",
+      "destination": "Philippines",
+      "person": "Rong Yao",
+      "type": "Delegation"
+    },
+    {
+      "from": "2026-11-18",
+      "till": "2026-11-19",
+      "dateLabel": "18\u201319 Nov",
+      "destination": "China",
+      "person": "Alex Tan",
+      "type": "Delegation"
+    },
+    {
+      "from": "2026-11-23",
+      "till": "2026-11-25",
+      "dateLabel": "23\u201325 Nov",
+      "destination": "Australia",
+      "person": "Rong Yao",
+      "type": "Delegation"
+    }
+  ]
+}

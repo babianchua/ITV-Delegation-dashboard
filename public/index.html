@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Upcoming Delegation Trips</title>
+<meta name="description" content="Upcoming delegation trips">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="shell">
+  <header class="hero">
+    <div>
+      <p class="eyebrow">Delegation calendar</p>
+      <h1>Upcoming Delegation Trips</h1>
+      <p class="sub">Confirmed overseas delegation travel.</p>
+    </div>
+    <div class="updated">Last updated<br><strong id="updated">—</strong></div>
+  </header>
+
+  <section class="toolbar" aria-label="Trip filters">
+    <div class="segmented" role="group" aria-label="Period">
+      <button class="active" data-period="all">All</button>
+      <button data-period="month">This month</button>
+      <button data-period="next">Next month</button>
+    </div>
+    <label class="select-wrap">
+      <span class="sr-only">Filter by person</span>
+      <select id="person"><option value="all">All people</option></select>
+    </label>
+  </section>
+
+  <section id="cards" class="cards" aria-live="polite"></section>
+  <p id="empty" class="empty" hidden>No upcoming trips match these filters.</p>
+
+  <footer>Public view · Only selected delegation fields are published.</footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
